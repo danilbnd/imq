@@ -15,10 +15,6 @@ html, body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  //justify-content: space-between;
-  //@media screen and (min-width: 760px) {
-  //  background: url(../img/bg-ipad1.png) no-repeat 50%;
-  //}
   @media screen and (min-width: $medium) and (max-width: $large) {
     height: 100vh;
     background: url(../img/bg-ipad1.png) no-repeat 50%;
