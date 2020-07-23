@@ -22,8 +22,10 @@ html, body {
   @media screen and (min-width: $medium) and (max-width: $large) {
     height: 100vh;
     background: url(../img/bg-ipad1.png) no-repeat 50%;
+    background-position-y: 60px;
     background-size: cover;
     flex-direction: row;
+    width: 100%;
   }
   @media screen and (min-width: $large) {
     background: url(../img/bg-desktop.png) no-repeat 50%;
