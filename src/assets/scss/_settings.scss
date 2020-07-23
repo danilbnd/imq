@@ -1,0 +1,43 @@
+$body-font-family: GothaPro, sans-serif;
+
+
+$small: 320px;
+$medium: 759px;
+$medium-x: 760px;
+$large: 1360px;
+
+html, body {
+  font: 400 16px/1.5 $body-font-family !important;
+  background: url(../img/bg-mobile.png) no-repeat 50%;
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  //justify-content: space-between;
+  //@media screen and (min-width: 760px) {
+  //  background: url(../img/bg-ipad1.png) no-repeat 50%;
+  //}
+  @media screen and (min-width: $medium) and (max-width: $large) {
+    height: 100vh;
+    background: url(../img/bg-ipad1.png) no-repeat 50%;
+    background-size: cover;
+    flex-direction: row;
+  }
+  @media screen and (min-width: $large) {
+    background: url(../img/bg-desktop.png) no-repeat 50%;
+  }
+}
+
+
+$grayscale: #656668;
+$light-gray: #fafafa;
+$medium-gray: #1D2024;
+$dark-gray: #2D3034;
+$white: #fff;
+$black: #000000;
+$green: #00B784;
+$green-second: #00B886;
+$primary-color: #00C1C8;
+
